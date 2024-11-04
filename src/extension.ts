@@ -59,9 +59,9 @@ export function activate(context: vscode.ExtensionContext) {
 					const jsonData: PortDetails = JSON.parse(data);
 					const valid = validate(jsonData);
 					if (valid) {
-						vscode.window.showInformationMessage("JSON is valid!");
 						vscode.window.showInformationMessage(JSON.stringify(checkOverLap(jsonData)));
 					}
+					vscode.window.showInformationMessage("JSON is valid!");
 				} catch (e) {
 					vscode.window.showErrorMessage("JSON File is Invalid " + e);
 				}
