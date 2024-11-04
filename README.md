@@ -33,8 +33,13 @@ Once that is done run,
 Press `CMD + Shift + P` and Select for `Debug: Start Debugging`
  - it will open a new VSCode Window Know as Extension Development Host
 
+
 ## How to run the extension?
- 
+  - Go To Extension Development Host Window
+  - Create a JSON File
+  - Right Click on the editor
+
+  ![plot] (./src/assets/img/plugin_screenshot.png) 
 ## How to run the test?
 
 ## Explanation of your test. Are they unit tests or integration tests?
