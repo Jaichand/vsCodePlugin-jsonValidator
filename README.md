@@ -39,7 +39,10 @@ Press `CMD + Shift + P` and Select for `Debug: Start Debugging`
   - Create a JSON File
   - Right Click on the editor
 
-  ![plot] (./src/assets/img/plugin_screenshot.png) 
+  <div align="center">
+    <img src="./src/assets/img/plugin_screenshot.png" width="350" title="hover text">
+  </div>
+
 ## How to run the test?
 
 ## Explanation of your test. Are they unit tests or integration tests?
